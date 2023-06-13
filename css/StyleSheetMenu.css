@@ -1,0 +1,110 @@
+/* Navigation */
+/* background Color */
+.topnav {
+
+    background-color:rgb(11, 148, 70);
+    overflow: hidden;
+  }
+  
+  /*Text Style*/
+  .topnav a {
+    font-family:'Goudy Old Style';
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  /*Hover Color*/
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /*Active Link Color*/
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+ 
+
+/* Header & Body */
+body {
+  background-color: rgb(85, 50, 55)
+}
+
+
+h1 {
+    font-family:'Klinic Slab';
+    font-weight: bold;
+    text-align: center;
+    color: rgb(207, 28, 68);
+    font-size: 60px;
+   padding-bottom: 20px;
+}
+
+h3 {
+  font-family:'Klinic Slab';
+  font-weight: bold;
+  text-align: center;
+  color: rgb(207, 28, 68);
+  
+}
+
+h2 {
+  font-family:'Klinic Slab';
+  font-weight: bold;
+  text-align: center;
+  color: rgb(207, 28, 68);
+  font-size: 30px;
+  padding: 5px;
+}
+
+p {
+    font-family:'Goudy Old Style';
+    text-align: center; 
+    color: rgb(216, 198, 184);
+    padding-bottom: 20px;
+
+}
+
+
+.main-image {
+  width: 60%; 
+  height: 60%;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+}
+/* Footer */
+footer {
+  font-family:'Goudy Old Style';
+  text-align: center; 
+  color: rgb(85, 50, 55);
+  font-size: 25px;
+  background-color:rgb(216, 198, 184) ;
+}
+h4 {
+  font-family:'Goudy Old Style';
+  text-align: center; 
+  color: rgb(85, 50, 55);
+  font-size: 25px;
+}
+/* Social Media*/
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #04AA6D;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
